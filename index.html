@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="register.css">
+    <script src="register.js"></script>
+    <title>Registeration Form</title>
+
+
+</head>
+<body>
+    <div class="main">
+        <div class="registeration">
+            <h1>Registeration Form</h1>
+            <form action="" name="RegisterForm" onsubmit=" return FormValidation()">
+
+                
+            <div class="input-field" name="">
+                <label for="">First Name</label>
+                <input type="text" name="fname" id="fname" placeholder="Enter First Name">
+                <span id="fnamemsg"></span>
+            </div>
+
+            <div class="input-field">
+                <label for="">last Name</label>
+                <input type="text" name="lname" id="lname" placeholder="Last Name">
+                <span id="lnamemsg"></span>
+            </div>
+            <div class="input-field">
+                <label for="">Age</label>
+                <input type="text" name="age" id="" placeholder="Enter Age">
+                <span id="agemsg"></span>
+            </div>
+            <div class="input-field">
+                <label for="">Email Id</label>
+                <input type="text" name="email" id="email" placeholder="Enter Your Email Id">
+                <span id="emailmsg"></span>
+            </div>
+            <div class="input-field">
+                <label for="">Passowrd</label>
+                <input type="password" name="pass1" id="pass1" placeholder="Enter Passowrd">
+                <span id="pass1msg"></span>
+            </div>
+            <div class="input-field">
+                <label for="">Confirm Passowrd</label>
+                <input type="password" name="pass2" id="pass2" placeholder="Confirm Your Passowrd">
+                <span id="pass2msg"></span>
+            </div>
+            <!-- <div style="margin-top:10px">
+
+                <input type="checkbox" name="show" id="show" onclick="showpass()">
+                <label for="">Show Password</label>
+            </div> -->
+            
+            <div class="input-fieldiff">
+                <label for="">Gender</label>
+                <input type="radio" name="Gender" id="">
+                <span>female</span>
+                
+
+                <input type="radio" name="Gender" id="">
+                <span>Male</span>
+                <span id="radiomsg"></span>
+            </div>
+            
+            <div class="input-fieldiff">
+                <label for="">Language Known</label>
+                <input type="checkbox" name="chk1" id="">
+                <span>Hindi</span>
+                <span id="lanmsg"></span>
+
+                <input type="checkbox" name="chk1" id="">
+                <span>English</span>
+            </div>
+            <button class="btn" name="submit" id="submit" value="submit">submit</button> 
+            </form>
+        </div>
+    </div>
+</body>
+</html>
